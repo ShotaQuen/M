@@ -47,7 +47,7 @@
       ]
     },
     {
-      "name": "Search Tools",
+      "name": "Search",
       "items": [
         {
           "name": "YouTube",
@@ -59,6 +59,21 @@
           }
         }
       ]
-    }               
+    },
+    {
+      "name": "Tools",
+      "items": [
+        {
+          "name": "Vcc generator",
+          "desc": "Generator virtual credit card",
+          "path": "/tools/vccgenerator?type=&num=",
+          "status": "ready",
+          "params": {
+            "type": "Type query"
+            "num": "Number query"
+          }
+        }
+      ]
+    }
   ]
 }
