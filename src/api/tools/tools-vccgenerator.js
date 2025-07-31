@@ -34,7 +34,7 @@ module.exports = function(app) {
             if (!type && !num) {
                 return res.status(400).json({ status: false, error: 'Parameter nya wajib di isi' });
             }
-            const { result } = await vccgenerator(type, num);
+            const result = await vccgenerator(type, num);
             res.status(200).json({
                 status: true,
                 result
