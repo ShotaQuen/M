@@ -69,7 +69,7 @@
           "path": "/tools/vccgenerator?type=&num=",
           "status": "ready",
           "params": {
-            "type": "Type query"
+            "type": "Type query",
             "num": "Number query"
           }
         }
