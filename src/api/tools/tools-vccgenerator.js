@@ -1,4 +1,4 @@
-const axios = required('axios')
+const axios = require('axios')
 async function vccgenerator(type, num = 10) {
     try {
         const _type = {
