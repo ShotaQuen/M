@@ -12,6 +12,20 @@
   },
   "categories": [
     {
+      "name": "Downloader",
+      "items": [
+        {
+          "name": "Mediafire",
+          "desc": "Mediafire downloader",
+          "path": "/download/mediafire?url=",
+          "status": "ready",
+          "params": {
+            "url": "Url query"
+          }
+        }
+      ]
+    },
+    {
       "name": "Tools",
       "items": [
         {
